@@ -9,7 +9,7 @@ body {
 }
 
 header {
-  background-color: #424e61;
+  background-color: #323842;
   color: white;
   width: 100%;
   padding: 20px;
@@ -47,6 +47,7 @@ header {
 .banner1 {
   display: flex;
   justify-content: center;
+  padding: 400px;
 }
 
 .estudante_titulo {
@@ -68,7 +69,7 @@ header {
 }
 
 .estudante {
-  background-color: #faae43; 
+  background-color: #000000; 
   padding: 24px 0;
 }
 
