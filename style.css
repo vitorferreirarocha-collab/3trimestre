@@ -23,11 +23,9 @@ header {
   justify-content: center;
 }
 
-.cabecalho-imagem {
-  width: 10%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+.cabecalho_imagem:hover {
+    transform: translateY(-15px) scale(1.05);
+    box-shadow: 0 15px 30px rgba(255, 215, 0, 0.6);
 }
 
 .titulo_site {
@@ -35,24 +33,29 @@ header {
   text-align: center;
   width: 50%;
   font-size: 30px; 
+  color: var(--dourado);
 }
 
 .sociais {
-  display: flex;
-  justify-content: flex-end;
-  width: 25%;
-  padding-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
 }
 
 .banner1 {
-  display: flex;
-  justify-content: center;
-  padding: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--preto);
 }
 
 .estudante_titulo {
-  padding: 50px;
-  text-align: center;
+    padding: 30px 10px;
+    text-align: center;
+    color: var(--dourado);
+    font-size: 30px;
 }
 
 .estudante-nome {
@@ -79,8 +82,13 @@ header {
 }
 
 .estudantes_todos {
-  display: flex;
-  justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 40px;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .escola {
@@ -91,9 +99,11 @@ header {
   display: block;
 }
 
-.escola-titulo {
-  padding: 50px;
-  text-align: center;
+.escola-título {
+    padding: 15px 0;
+    text-align: center;
+    color: var(--branco);
+    font-size: 22px;
 }
 
 .logo_rodape {
