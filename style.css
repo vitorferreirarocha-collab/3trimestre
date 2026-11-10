@@ -105,3 +105,49 @@ header {
   color: #ffffff;
   text-decoration: none;
 }
+:root {
+  --fundo: #14171C;
+  --blocos: #232933;
+  --destaque: #FF5A36;
+  --texto: #EDEFF2;
+}
+
+body {
+  background-color: var(--fundo);
+  color: var(--texto);
+}
+
+header {
+  background-color: var(--blocos);
+}
+
+.titulo_site {
+  color: var(--destaque);
+}
+
+.banner1 {
+  padding: 100px 0;
+}
+
+.estudante_titulo {
+  color: var(--destaque);
+}
+
+.estudante {
+  background-color: var(--blocos);
+  border-top: 4px solid var(--destaque);
+}
+
+.escola {
+  background-image: none;
+  background-color: var(--blocos);
+  text-align: center;
+}
+
+.link {
+  color: var(--destaque);
+}
+
+.link:hover {
+  text-decoration: underline;
+}
