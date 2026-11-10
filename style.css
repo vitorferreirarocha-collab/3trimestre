@@ -219,3 +219,13 @@ nav ul li a:hover {
   border-width: 2px;
   object-fit: contain; 
 }
+.certificados-img {
+  display: flex;         /* coloca os filhos lado a lado */
+  justify-content: center;
+  gap: 20px;             /* espaço entre elas */
+}
+
+.certificados-img {
+  width: 45%;            /* duas imagens cabem na mesma linha */
+  border-radius: 12px;   /* cantos arredondados */
+}
