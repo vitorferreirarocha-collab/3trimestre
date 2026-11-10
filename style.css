@@ -1,18 +1,19 @@
+
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 header {
-  background-color: #323842;
-  color: white;
-  width: 100%;
-  padding: 20px;
+    background-color: #323842;
+    color: white;
+    width: 100%;
+    padding: 20px;
 }
 
 .cabecalho-itens {
@@ -26,136 +27,138 @@ header {
 }
 
 .cabecalho-imagem {
-  width: 10%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+    width: 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .titulo_site {
-  padding: 50px;
-  text-align: center;
-  width: 50%;
-  font-size: 30px; 
+    padding: 50px;
+    text-align: center;
+    width: 50%;
+    font-size: 30px;
 }
 
 .sociais {
-  display: flex;
-  justify-content: flex-end;
-  width: 25%;
-  padding-right: 30px;
+    display: flex;
+    justify-content: flex-end;
+    width: 25%;
+    padding-right: 30px;
 }
 
 .banner1 {
-  display: flex;
-  justify-content: center;
-  padding: 400px;
+    display: flex;
+    justify-content: center;
+    padding: 400px;
 }
 
 .estudante_titulo {
-  padding: 50px;
-  text-align: center;
+    padding: 50px;
+    text-align: center;
 }
 
 .estudante-nome {
-  text-align: center;
+    text-align: center;
 }
 
 .estudante-imagem {
-  width: 300px;
+    width: 300px;
 }
 
 .estudante-icone {
-  width: 38px;
-  padding: 4px 8px;
+    width: 38px;
+    padding: 4px 8px;
 }
 
 .estudante {
-  background-color: #000000; 
-  padding: 24px 0;
+    background-color: #000000;
+    padding: 24px 0;
 }
 
-.estudante div { 
-  text-align: center;
-  padding: 24px 0;
+.estudante div {
+    text-align: center;
+    padding: 24px 0;
 }
 
 .estudantes_todos {
-  display: flex;
-  justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
 }
 
 .escola {
-  background-image: linear-gradient(#40A2E3, #7FC2EF);
-  color: white;
-  padding: 24px 0;
-  
-  display: block;
+    background-image: linear-gradient(#40A2E3, #7FC2EF);
+    color: white;
+    padding: 24px 0;
+    display: block;
 }
 
 .escola-titulo {
-  padding: 50px;
-  text-align: center;
+    padding: 50px;
+    text-align: center;
 }
 
 .logo_rodape {
-  height: 80px;
-  padding: 12px 0;
+    height: 80px;
+    padding: 12px 0;
 }
 
 .link {
-  color: #ffffff;
-  text-decoration: none;
+    color: #ffffff;
+    text-decoration: none;
 }
+
 :root {
-  --fundo: #14171C;
-  --blocos: #232933;
-  --destaque: #FF5A36;
-  --texto: #EDEFF2;
+    --fundo: #14171C;
+    --blocos: #232933;
+    --destaque: #FF5A36;
+    --texto: #EDEFF2;
 }
 
 body {
-  background-color: var(--fundo);
-  color: var(--texto);
+    background-color: var(--fundo);
+    color: var(--texto);
 }
 
 header {
-  background-color: var(--blocos);
+    background-color: var(--blocos);
 }
 
 .titulo_site {
-  color: var(--destaque);
+    color: var(--destaque);
 }
 
 .banner1 {
-  padding: 100px 0;
+    padding: 100px 0;
 }
 
 .estudante_titulo {
-  color: var(--destaque);
+    color: var(--destaque);
 }
 
 .estudante {
-  background-color: var(--blocos);
-  border-top: 4px solid var(--destaque);
+    background-color: var(--blocos);
+    border-top: 4px solid var(--destaque);
 }
 
 .escola {
-  background-image: none;
-  background-color: var(--blocos);
-  text-align: center;
+    background-image: none;
+    background-color: var(--blocos);
+    text-align: center;
 }
 
 .link {
-  color: var(--destaque);
+    color: var(--destaque);
 }
 
 .link:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
+
 /* ========================================
    4. MENU DE NAVEGAÇÃO
 ======================================== */
+
 nav {
     background-color: var(--preto);
     width: 100%;
@@ -187,45 +190,59 @@ nav ul li a:hover {
 }
 
 :root {
-  --dourado: #D4AF37;
+    --dourado: #D4AF37;
 }
-
 
 .estudante-imagem,
 .estudante-icone {
-  border-radius: 50%;
-  border: 4px solid var(--dourado);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 50%;
+    border: 4px solid var(--dourado);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .estudante-imagem:hover,
 .estudante-icone:hover {
-  transform: scale(1.08);
-  box-shadow: 0 0 20px var(--dourado);
+    transform: scale(1.08);
+    box-shadow: 0 0 20px var(--dourado);
 }
-
 
 .estudante-imagem {
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
 }
-
 
 .estudante-icone {
-  width: 50px;
-  height: 50px;
-  padding: 6px;
-  border-width: 2px;
-  object-fit: contain; 
-}
-.certificados-img {
-  display: flex;         /* coloca os filhos lado a lado */
-  justify-content: center;
-  gap: 20px;             /* espaço entre elas */
+    width: 50px;
+    height: 50px;
+    padding: 6px;
+    border-width: 2px;
+    object-fit: contain;
 }
 
 .certificados-img {
-  width: 45%;            /* duas imagens cabem na mesma linha */
-  border-radius: 12px;   /* cantos arredondados */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.certificados-img img {
+    width: 45%;
+    border-radius: 12px;
+}
+
+.certificados {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.certificado {
+    text-align: center;
+}
+
+.certificado img {
+    width: 45%;
+    border-radius: 12px;
 }
