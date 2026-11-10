@@ -25,18 +25,11 @@ header {
     flex-wrap: wrap;
 }
 
-.cabecalho_imagem {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 3px solid var(--dourado);
-    transition: transform 0.4s ease, box-shadow 0.4s ease;
-}
-
-.cabecalho_imagem:hover {
-    transform: translateY(-15px) scale(1.05);
-    box-shadow: 0 15px 30px rgba(255, 215, 0, 0.6);
+.cabecalho-imagem {
+  width: 10%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .titulo_site {
@@ -192,3 +185,4 @@ nav ul li a:hover {
     background-color: var(--dourado);
     color: var(--preto);
 }
+
