@@ -16,16 +16,20 @@ header {
 }
 
 .cabecalho-itens {
-  max-width: 1980px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    max-width: 1980px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
 }
 
-.cabecalho_imagem:hover {
-    transform: translateY(-15px) scale(1.05);
-    box-shadow: 0 15px 30px rgba(255, 215, 0, 0.6);
+.cabecalho-imagem {
+  width: 10%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .titulo_site {
@@ -33,29 +37,24 @@ header {
   text-align: center;
   width: 50%;
   font-size: 30px; 
-  color: var(--dourado);
 }
 
 .sociais {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
+  display: flex;
+  justify-content: flex-end;
+  width: 25%;
+  padding-right: 30px;
 }
 
 .banner1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    background-color: var(--preto);
+  display: flex;
+  justify-content: center;
+  padding: 400px;
 }
 
 .estudante_titulo {
-    padding: 30px 10px;
-    text-align: center;
-    color: var(--dourado);
-    font-size: 30px;
+  padding: 50px;
+  text-align: center;
 }
 
 .estudante-nome {
@@ -63,7 +62,7 @@ header {
 }
 
 .estudante-imagem {
-  width: 400px;
+  width: 300px;
 }
 
 .estudante-icone {
@@ -82,13 +81,8 @@ header {
 }
 
 .estudantes_todos {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    gap: 40px;
-    flex-wrap: wrap;
-    max-width: 1400px;
-    margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
 }
 
 .escola {
@@ -99,11 +93,9 @@ header {
   display: block;
 }
 
-.escola-título {
-    padding: 15px 0;
-    text-align: center;
-    color: var(--branco);
-    font-size: 22px;
+.escola-titulo {
+  padding: 50px;
+  text-align: center;
 }
 
 .logo_rodape {
