@@ -246,3 +246,29 @@ nav ul li a:hover {
     width: 45%;
     border-radius: 12px;
 }
+
+
+.sociais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    margin-top: 30px;
+}
+
+.estudante-icone {
+    width: 65px;
+    height: 65px;
+    object-fit: contain;
+    transition: 0.3s;
+}
+
+.estudante-icone:hover {
+    transform: scale(1.2);
+}
+
+/* Centralizar a seção de contato */
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
