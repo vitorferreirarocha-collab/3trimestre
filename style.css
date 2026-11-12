@@ -248,27 +248,39 @@ nav ul li a:hover {
 }
 
 
-.sociais {
+.contato {
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contato {
+    width: 100%;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.contato h1 {
+    margin-bottom: 30px;
+}
+
+.contato .sociais {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 35px;
-    margin-top: 30px;
+    gap: 40px;
+    width: 100%;
 }
 
 .estudante-icone {
     width: 65px;
-    height: 65px;
-    object-fit: contain;
     transition: 0.3s;
 }
 
 .estudante-icone:hover {
     transform: scale(1.2);
-}
-
-/* Centralizar a seção de contato */
-h1 {
-    text-align: center;
-    margin-top: 50px;
 }
