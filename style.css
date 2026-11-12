@@ -155,9 +155,6 @@ header {
     text-decoration: underline;
 }
 
-/* ========================================
-   4. MENU DE NAVEGAÇÃO
-======================================== */
 
 nav {
     background-color: var(--preto);
@@ -283,4 +280,13 @@ nav ul li a:hover {
 
 .estudante-icone:hover {
     transform: scale(1.2);
+}
+
+
+.foto-sobre {
+    width: 250px;
+    height: auto;
+    max-width: 100%;
+    border-radius: 15px;
+    object-fit: cover;
 }
