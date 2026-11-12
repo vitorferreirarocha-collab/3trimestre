@@ -284,9 +284,11 @@ nav ul li a:hover {
 
 
 .foto-sobre {
-    width: 250px;
+    width: 300px;
     height: auto;
     max-width: 100%;
     border-radius: 15px;
     object-fit: cover;
+     justify-content: center;
+    align-items: center; 
 }
