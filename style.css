@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -7,10 +6,22 @@
 
 body {
     font-family: "Poppins", sans-serif;
+    background-color: var(--fundo);
+    color: var(--texto);
+}
+
+:root {
+    --fundo: #14171C;
+    --blocos: #232933;
+    --destaque: #FF5A36;
+    --texto: #EDEFF2;
+    --dourado: #D4AF37;
+    --preto: #0D0F12;
+    --branco: #FFFFFF;
 }
 
 header {
-    background-color: #323842;
+    background-color: var(--blocos);
     color: white;
     width: 100%;
     padding: 20px;
@@ -38,6 +49,7 @@ header {
     text-align: center;
     width: 50%;
     font-size: 30px;
+    color: var(--destaque);
 }
 
 .sociais {
@@ -50,29 +62,26 @@ header {
 .banner1 {
     display: flex;
     justify-content: center;
-    padding: 400px;
+    padding: 100px 0;
+}
+
+.escola-image {
+    max-width: 100%;
 }
 
 .estudante_titulo {
     padding: 50px;
     text-align: center;
+    color: var(--destaque);
 }
 
 .estudante-nome {
     text-align: center;
 }
 
-.estudante-imagem {
-    width: 300px;
-}
-
-.estudante-icone {
-    width: 38px;
-    padding: 4px 8px;
-}
-
 .estudante {
-    background-color: #000000;
+    background-color: var(--blocos);
+    border-top: 4px solid var(--destaque);
     padding: 24px 0;
 }
 
@@ -84,12 +93,14 @@ header {
 .estudantes_todos {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .escola {
-    background-image: linear-gradient(#40A2E3, #7FC2EF);
+    background-color: var(--blocos);
     color: white;
     padding: 24px 0;
+    text-align: center;
     display: block;
 }
 
@@ -104,51 +115,8 @@ header {
 }
 
 .link {
-    color: #ffffff;
+    color: var(--destaque);
     text-decoration: none;
-}
-
-:root {
-    --fundo: #14171C;
-    --blocos: #232933;
-    --destaque: #FF5A36;
-    --texto: #EDEFF2;
-}
-
-body {
-    background-color: var(--fundo);
-    color: var(--texto);
-}
-
-header {
-    background-color: var(--blocos);
-}
-
-.titulo_site {
-    color: var(--destaque);
-}
-
-.banner1 {
-    padding: 100px 0;
-}
-
-.estudante_titulo {
-    color: var(--destaque);
-}
-
-.estudante {
-    background-color: var(--blocos);
-    border-top: 4px solid var(--destaque);
-}
-
-.escola {
-    background-image: none;
-    background-color: var(--blocos);
-    text-align: center;
-}
-
-.link {
-    color: var(--destaque);
 }
 
 .link:hover {
@@ -186,9 +154,6 @@ nav ul li a:hover {
     color: var(--preto);
 }
 
-:root {
-    --dourado: #D4AF37;
-}
 
 .estudante-imagem,
 .estudante-icone {
@@ -217,31 +182,21 @@ nav ul li a:hover {
     object-fit: contain;
 }
 
-.certificados-img {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.certificados-img img {
-    width: 45%;
-    border-radius: 12px;
-}
-
-.certificados {
+/* CERTIFICADOS */
+.certificados-img, .certificados {
     display: flex;
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
 }
 
-.certificado {
-    text-align: center;
-}
-
-.certificado img {
+.certificados-img img, .certificado img {
     width: 45%;
     border-radius: 12px;
+}
+
+.certificado {
+    text-align: center;
 }
 
 
@@ -252,11 +207,6 @@ nav ul li a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
-}
-
-.contato {
-    width: 100%;
     text-align: center;
     padding: 60px 20px;
 }
@@ -273,16 +223,10 @@ nav ul li a:hover {
     width: 100%;
 }
 
-.estudante-icone {
+.contato .estudante-icone {
     width: 65px;
-    transition: 0.3s;
+    height: 65px;
 }
-
-.estudante-icone:hover {
-    transform: scale(1.2);
-}
-
-
 
 .foto-sobre {
     width: 367px;
@@ -295,61 +239,74 @@ nav ul li a:hover {
 }
 
 
-
 .dropbtn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
 }
 
 .dropdown {
-  position: relative;
+    position: relative;
+    display: inline-block;
 }
 
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 200px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 10;
 }
 
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
 }
 
 .dropdown-content a:hover {
-  background-color: #f1f1f1;
+    background-color: #f1f1f1;
 }
 
 .dropdown:hover .dropdown-content {
-  display: block;
+    display: block;
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #3e8e41;
+    background-color: #3e8e41;
 }
 
-.video {
+
+.videos-lado-a-lado {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    text-align: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
     padding: 40px 20px;
 }
 
-.video h2 {
-    margin-bottom: 20px;
+.video-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
-.video iframe {
-    max-width: 100%; 
-    border-radius: 10px; 
+.video-item h2 {
+    margin-bottom: 15px;
+    color: var(--destaque);
+}
+
+.video-item iframe {
+    width: 500px;
+    height: 280px;
+    max-width: 100%;
+    border-radius: 10px;
+    border: none;
 }
